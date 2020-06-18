@@ -1,0 +1,6 @@
+ureport:
+  disableHttpSessionReportCache: false
+  disableFileProvider: false
+  fileStoreDir: D:/ureportfiles
+  debug: true
+

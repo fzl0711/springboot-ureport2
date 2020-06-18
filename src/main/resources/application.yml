@@ -1,0 +1,22 @@
+# Server settings  
+server:  
+    port: 8080
+
+spring:
+  datasource:
+     url: jdbc:mysql://127.0.0.1:3306/useport?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+     username: root
+     password: 123456
+     driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev
+
+# 日志配置
+logging:
+  level:
+    org.apache.ibatis: DEBUG
+    
+# ureport Mysql 存储
+ureport.mysql.provider:
+  prefix: mysql-
+  disabled: false
